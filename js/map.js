@@ -1,7 +1,6 @@
 var map;
 
-export default map = L.map("mapid").locate({ setView: true, maxZoom: 13 });
-// L.esri.basemapLayer("Streets").addTo(map);
+export default map = L.map("mapid").setView([19.03793, -98.20346], 12);
 
 L.tileLayer(
   "https://api.maptiler.com/maps/streets/256/{z}/{x}/{y}.png?key=ULohX30zZKHpFLtElHY4",

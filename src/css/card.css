@@ -227,7 +227,7 @@
   }
 
   .likedPink {
-    color: tomato;
+    color: #fff;
   }
   button:focus {
     outline: 0px !important;
